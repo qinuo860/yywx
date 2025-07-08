@@ -1,3 +1,7 @@
+if (typeof domainUrl === "undefined") {
+    var domainUrl = "http://localhost:8000/";
+}
+
 $(document).ready(function () {
     $("#loginForm").on("submit", function (event) {
         event.preventDefault();
